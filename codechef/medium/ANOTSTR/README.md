@@ -72,14 +72,15 @@ NO
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:18:20.011Z  
+**Submitted:** 2026-10-07T15:18:52.932Z  
 
 ```java
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int T = sc.nextInt();
@@ -111,6 +112,7 @@ public static void main(String[] args) {
 
         sc.close();
     }
+}
 ```
 
 ---
