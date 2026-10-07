@@ -67,22 +67,33 @@ The die has $4$ faces, numbered $3, 6, 9, 12$. Since $15$ is not one of these fa
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:14:49.515Z  
+**Submitted:** 2026-10-07T15:15:48.293Z  
 
 ```java
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		// your code goes here
 
-	}
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int X = sc.nextInt();
+        int K = sc.nextInt();
+        int Y = sc.nextInt();
+
+        // Y must be a multiple of K
+        // and must be among the first X multiples of K.
+        if (Y % K == 0 && Y / K <= X) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+
+        sc.close();
+    }
 }
-
 ```
 
 ---
