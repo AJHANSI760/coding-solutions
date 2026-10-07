@@ -73,7 +73,7 @@ Hence the route is valid. Other valid permutations would also be accepted.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:29:37.508Z  
+**Submitted:** 2026-10-07T15:31:09.540Z  
 
 ```java
 import java.util.*;
