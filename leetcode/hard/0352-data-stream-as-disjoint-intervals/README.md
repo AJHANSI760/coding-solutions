@@ -53,9 +53,9 @@ summaryRanges.getIntervals(); // return [[1, 3], [6, 7]]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 5 ms  
-**Memory:** 42.5 MB  
-**Submitted:** 2026-10-13T13:40:22.479Z  
+**Runtime:** 22 ms (beats 43.79%)  
+**Memory:** 45.2 MB (beats 84.39%)  
+**Submitted:** 2026-10-13T13:40:27.497Z  
 
 ```java
 
