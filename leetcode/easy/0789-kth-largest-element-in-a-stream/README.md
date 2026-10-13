@@ -61,9 +61,9 @@ kthLargest.add(9); // return 8
 ## Solution
 
 **Language:** Java  
-**Runtime:** 20 ms (beats 98.32%)  
-**Memory:** 52 MB (beats 87.21%)  
-**Submitted:** 2026-10-13T13:38:10.715Z  
+**Runtime:** 23 ms (beats 63.41%)  
+**Memory:** 52.1 MB (beats 73.63%)  
+**Submitted:** 2026-10-13T13:38:26.867Z  
 
 ```java
 
